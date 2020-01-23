@@ -207,6 +207,37 @@ textarea {
    }
    /*--------------------------- End Base FAQ Page Styles ----------------------------*/
 
+   /*--------------------------- Default Mobile Styles ----------------------------*/
+   .content-wrapper {
+     width: 100%;
+   }
+
+   .header-divider  {
+     width: 100%;
+   }
+
+   header nav {
+     width: 60%;
+   }
+
+   header nav ul  {
+     width: 45%;
+     margin: 20px 0;
+   }
+
+   .features article  {
+     width: 55%;
+   }
+
+   .reviews h3  {
+     width: 55%;
+   }
+
+   footer .content-wrapper  {
+     width: 55%;
+     margin: 50px 0;
+   }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
