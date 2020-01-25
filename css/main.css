@@ -176,12 +176,18 @@ textarea {
     footer .copyright {
       margin: 20px 0;
     }
-   /*--------------------------- Base Main Styles ----------------------------*/
+
+   /*--------------------------- Default Mobile Homepage Styles ----------------------------*/
+
    .hero-area {
      display: flex;
      justify-content: center;
      /* align-items: center; */
      flex-flow: row wrap;
+   }
+
+   .hero-area h1  {
+     padding: 50px 0;
    }
 
    aside  {
@@ -198,11 +204,24 @@ textarea {
      flex-flow: row wrap;
    }
 
+   .features h2 {
+     padding: 50px 0;
+   }
+
+   .features article  {
+     width: 55%;
+   }
+
    .features .features-items  {
      display: flex;
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+   }
+
+   .features p  {
+     margin: 0;
+     padding: 50px 0;
    }
 
    .reviews {
@@ -212,30 +231,18 @@ textarea {
      flex-flow: row wrap;
    }
 
-   /*--------------------------- Default Mobile Homepage Styles ----------------------------*/
-
-   h1 {
-     padding: 50px 0;
-   }
-
-   .features h2 {
-     padding: 50px 0;
-   }
-
-   .features article  {
-     width: 55%;
-   }
-
-   .features p  {
-     margin: 0;
-     padding: 50px 0;
+   .reviews h2  {
+     margin: 30px 0;
    }
 
    .reviews h3  {
      width: 55%;
+     margin: 20px 0;
    }
 
+
    /*--------------------------- Base About Page Styles ----------------------------*/
+
    .mission {
      display: flex;
      justify-content: center;
