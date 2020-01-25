@@ -98,6 +98,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
    /* ------------------- Base Header - Footer Styles ----------------------- */
+   .content-wrapper {
+     width: 90%;
+   }
+
    header,
    footer {
      display: flex;
@@ -106,24 +110,53 @@ textarea {
      flex-flow: row wrap;
    }
 
+   header {
+     padding: 15px 0;
+   }
+
    header .content-wrapper {
      display: flex;
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     margin: 0;
    }
+
+  .header-divider  {
+    width: 100%;
+  }
 
    header nav {
      display: flex;
      justify-content: space-around;
      align-items: center;
      flex-flow: row wrap;
+     width: 60%;
    }
 
    header nav ul  {
      display: flex;
      justify-content: space-around;
      /* align-items: center; */
+     width: 100%;
+     margin: 20px 0;
+   }
+
+   footer {
+     flex-direction: column;
+   }
+
+   footer p {
+     margin: 0;
+   }
+
+   footer .content-wrapper  {
+     width: 55%;
+     margin: 50px 0;
+   }
+
+   footer .contact  {
+     margin-bottom: 50px 0;
    }
 
    footer .social-icons  {
@@ -139,13 +172,16 @@ textarea {
       align-items: center;
       /* flex-flow: row wrap; */
     }
+
+    footer .copyright {
+      margin: 20px 0;
+    }
    /*--------------------------- Base Main Styles ----------------------------*/
    .hero-area {
      display: flex;
      justify-content: center;
      /* align-items: center; */
      flex-flow: row wrap;
-
    }
 
    aside  {
@@ -174,6 +210,29 @@ textarea {
      justify-content: center;
      /* align-items: center; */
      flex-flow: row wrap;
+   }
+
+   /*--------------------------- Default Mobile Homepage Styles ----------------------------*/
+
+   h1 {
+     padding: 50px 0;
+   }
+
+   .features h2 {
+     padding: 50px 0;
+   }
+
+   .features article  {
+     width: 55%;
+   }
+
+   .features p  {
+     margin: 0;
+     padding: 50px 0;
+   }
+
+   .reviews h3  {
+     width: 55%;
    }
 
    /*--------------------------- Base About Page Styles ----------------------------*/
@@ -206,62 +265,6 @@ textarea {
      flex-flow: row wrap;
    }
    /*--------------------------- End Base FAQ Page Styles ----------------------------*/
-
-   /*--------------------------- Default Mobile Styles ----------------------------*/
-   header {
-     padding: 15px 0;
-   }
-
-   .content-wrapper {
-     width: 100%;
-   }
-
-   header .content-wrapper  {
-     /* margin: 0; */
-   }
-
-   .header-divider  {
-     width: 100%;
-   }
-
-   header nav {
-     width: 60%;
-   }
-
-   header nav ul  {
-     width: 45%;
-     margin: 20px 0;
-   }
-
-   h1 {
-     padding: 50px 0;
-   }
-
-   .features h2 {
-     padding: 50px 0;
-   }
-
-   .features article  {
-     width: 55%;
-   }
-
-   .features p  {
-     /* margin: 0; */
-     padding: 50px 0;
-   }
-
-   .reviews h3  {
-     width: 55%;
-   }
-
-   footer .content-wrapper  {
-     width: 55%;
-     margin: 50px 0;
-   }
-
-   footer p {
-     padding: 20px 0;
-   }
 
 /* ==========================================================================
    Helper classes
