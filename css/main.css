@@ -431,12 +431,11 @@ textarea {
   }
 
   .features-items article {
-    width: 50%;
+    flex-basis: 50%;
     display: flex;
     flex-direction: column; /* flex-flow?*/
     justify-content: center;
     align-items: center;
-
   }
 
   .features p {
@@ -468,6 +467,14 @@ textarea {
     justify-content: space-around;
     align-items: center;
   }
+
+  /*--------------------------- Tablet FAQ Page Styles ----------------------------*/
+  faq .faq-content  {
+    flex-basis: 50%;
+  }
+
+  /*--------------------------- Tablet About Page Styles ----------------------------*/
+
 
 }
 
