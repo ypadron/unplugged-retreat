@@ -364,6 +364,107 @@ textarea {
 
 @media only screen and (min-width: 768px) {
   /* Tablet Styles Here */
+  .content-wrapper  {
+    width: 80%;
+  }
+
+  header  {
+    justify-content: center;
+  }
+
+  header .content-wrapper {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+
+  header a {
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    width: 40%;
+  }
+
+  header img  {
+  }
+
+  header nav  {
+    width: 60%;
+  }
+
+  header nav ul {
+    justify-content: flex-end;
+  }
+
+  .hero-area h1 {
+    width: 60%;
+  }
+
+  aside {
+    width: 100%;
+  }
+
+  aside .content-wrapper  {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row;
+    width: 80%;
+  }
+
+  .form-description,
+  .form {
+    width: 50%;
+  }
+
+  .form input {
+    width: 100%;
+  }
+
+  .features h2  {
+    width: 60%;
+  }
+
+  .features-items {
+    width: 100%;
+  }
+
+  .features-items article {
+    width: 50%;
+    display: flex;
+    flex-direction: column; /* flex-flow?*/
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .features p {
+    width: 60%;
+  }
+
+  .reviews h2 {
+    width: 50%;
+  }
+
+  .reviews article  {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  article img,
+  article div {
+    width: 50%;
+  }
+
+  footer .content-wrapper {
+    width: 100%;
+  }
+
+  footer .footer-content  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
 }
 
 @media only screen and (min-width: 1200px) {
