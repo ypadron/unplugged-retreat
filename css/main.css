@@ -394,6 +394,10 @@ textarea {
     justify-content: flex-end;
   }
 
+  .header-divider {
+    display: none;
+  }
+
   .hero-area h1 {
     width: 60%;
   }
