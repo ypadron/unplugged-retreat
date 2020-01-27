@@ -562,7 +562,20 @@ textarea {
     width: 50%;
   }
   /*--------------------------- About Page Styles Desktop ----------------------------*/
+  .mission h2,
+  .contact-section .content-wrapper h2  {
+    width: 60%;
+  }
 
+  .contact-section .content-wrapper h2  {
+    margin-bottom: 10px;
+  }
+
+  .mission-content p {
+    /* display: flex; */
+    /* flex-flow: row; */
+    width: 45%;
+  }
   /*---------------------------- FAQ Page Styles Desktop -----------------------------*/
 
 }
