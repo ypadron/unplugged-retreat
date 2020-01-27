@@ -519,6 +519,52 @@ textarea {
 
 @media only screen and (min-width: 1200px) {
   /* Desktop Styles Here */
+  .content-wrapper  {
+    max-width: 950px;
+  }
+
+  .hero-area h1 {
+    width: 70%;
+  }
+
+  aside .content-wrapper  {
+    justify-content: space-around;
+  }
+
+  .form-description,
+  .form {
+    width: 50%;
+  }
+
+  .form-description h3,
+  .form-description p {
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 15px;
+  }
+
+  .form h3,
+  .form input {
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 15px;
+  }
+
+  .features h2  {
+    width: 50%;
+  }
+
+  .features-items article {
+    flex-basis: 30%;
+  }
+
+  .reviews article div  {
+    width: 50%;
+  }
+  /*--------------------------- About Page Styles Desktop ----------------------------*/
+
+  /*---------------------------- FAQ Page Styles Desktop -----------------------------*/
+
 }
 
 /* ==========================================================================
