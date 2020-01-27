@@ -468,18 +468,12 @@ textarea {
     align-items: center;
   }
 
-  /*--------------------------- Tablet FAQ Page Styles ----------------------------*/
-  faq .faq-content  {
-    flex-basis: 50%;
-  }
-
   /*--------------------------- Tablet About Page Styles ----------------------------*/
   .mission-content  {
     display: flex;
     /* flex-flow: column; */
     justify-content: space-between;
     align-items: center;
-
   }
 
   .mission-content  h2  {
@@ -506,6 +500,20 @@ textarea {
   .contact-content div {
     width: 50%;
   }
+
+  /*--------------------------- Tablet FAQ Page Styles ----------------------------*/
+  .faq .content-wrapper {
+    justify-content: space-between;
+  }
+
+  .faq .faq-content  {
+    flex-basis: 50%;
+  }
+
+  .faq h2 {
+    width: 100%;
+}
+
 
 }
 
