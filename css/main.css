@@ -319,6 +319,10 @@ textarea {
      flex-flow: row wrap;
    }
 
+   .contact-content p {
+     /* margin: 0; */
+   }
+
    /*--------------------------- Base FAQ Page Styles ----------------------------*/
    .faq {
      display: flex;
