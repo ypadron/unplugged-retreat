@@ -336,6 +336,15 @@ textarea {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     margin: ;
+   }
+
+   .faq h2  {
+     margin: ;
+   }
+
+   .faq-content {
+     margin: ;
    }
    /*--------------------------- End Base FAQ Page Styles ----------------------------*/
 
