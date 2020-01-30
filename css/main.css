@@ -647,6 +647,10 @@ textarea {
     width: 100%;
   }
 
+  .map figure {
+    padding-bottom: 45%;
+  }
+
   .contact-section .content-wrapper h2  {
     width: 70%;
   }
@@ -727,6 +731,10 @@ textarea {
   .mission h2,
   .contact-section .content-wrapper h2  {
     width: 60%;
+  }
+
+  .map figure {
+    padding-bottom: 57%;
   }
 
   .contact-section .content-wrapper h2  {
