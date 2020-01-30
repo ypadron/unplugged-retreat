@@ -106,6 +106,7 @@ textarea {
      font-family: 'Open Sans', sans-serif;
      font-size: 1em;
      line-height: 1.2; /*move to a different element ?1.285<p>*/
+     color: #e2e3ed;
      text-align: ;
    }
 
@@ -122,14 +123,15 @@ textarea {
 
    h2  {
      font-family: 'Poppins', sans-serif;
-     font-size: 2em; /*1.875em*/
+     font-size: 1.875em;
    }
 
    h3,
    h4  {
      font-family: 'Poppins', sans-serif;
      margin: ;
-     font-size: 1.25em; /*1.125em*/
+     font-size: 1.125em; /*1.125em*/
+     font-weight: 500%;
    }
 
    p  {
@@ -152,7 +154,7 @@ textarea {
 
    .content-wrapper {
      width: 90%;
-     margin: ;
+     margin: 30px 0;
    }
 
    /* ------------------- Base Header - Footer Styles ----------------------- */
@@ -179,6 +181,14 @@ textarea {
      margin: 0;
    }
 
+   header figure  {
+     width: 60%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+
   .header-divider  {
     width: 100%;
     height: 1px;
@@ -192,6 +202,9 @@ textarea {
      align-items: center;
      flex-flow: row wrap;
      width: 60%;
+     font-size: ;
+     font-weight: ;
+     text-transform: ;
    }
 
    header nav ul  {
@@ -205,6 +218,7 @@ textarea {
 
    footer {
      flex-direction: column;
+     text-align: center;
    }
 
    footer p {
@@ -217,7 +231,7 @@ textarea {
    }
 
    footer .contact  {
-     margin-bottom: 50px 0;
+     margin-bottom: 50px;
    }
 
    footer .social-icons  {
@@ -228,9 +242,9 @@ textarea {
    }
 
     footer .social-icons p {
-      /* display: flex; */
-      /* justify-content: center; */
-      /* align-items: center; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
       /* flex-flow: row wrap; */
     }
 
@@ -241,14 +255,24 @@ textarea {
    /*--------------------------- Default Mobile Homepage Styles ----------------------------*/
 
    .hero-area {
+     background: url('../img/jake-melara-30679-unsplash-web.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     min-height: 500px;
      display: flex;
      justify-content: center;
      /* align-items: center; */
      flex-flow: row wrap;
+
    }
 
    .hero-area h1  {
-     padding: 50px 0;
+     font-family: 'Poppins', sans-serif;
+     font-size: 2.25em;
+     font-weight: 500;
+     /* padding: 50px 0; */
+     line-height: ;
    }
 
    aside  {
@@ -257,7 +281,6 @@ textarea {
      align-items: center;
      flex-flow: row wrap;
      background-color: #527158;
-     color: #fff;
    }
 
 /*--------------------------- Default Homepage Form Styles ----------------------------*/
@@ -292,6 +315,10 @@ textarea {
 
 
    .features  {
+     background: url('../img/rawpixel-800820-unsplash1-web.jpg');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
      display: flex;
      justify-content: center;
      /* align-items: center; */
@@ -316,7 +343,8 @@ textarea {
 
    .features p  {
      margin: 0;
-     padding: 50px 0;/*do I need padding?*/
+     padding: 50px 0; /*May not need*/
+     text-align: center;
    }
 
    .reviews {
@@ -325,11 +353,11 @@ textarea {
      /* align-items: center; */
      flex-flow: row wrap;
      background-color: #2a423a;
-     color: #fff;
    }
 
    .reviews h2  {
      margin: 30px 0;/*margin-bottom only?*/
+     line-height: ;
    }
 
    .reviews h3  {
@@ -341,6 +369,7 @@ textarea {
    /*--------------------------- Base About Page Styles ----------------------------*/
 
    .mission {
+     background-color: #527158;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -348,6 +377,7 @@ textarea {
    }
 
    .contact-section {
+     background-color: #2a423a;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -355,11 +385,12 @@ textarea {
    }
 
    .contact-content p {
-     /* margin: 0; */
+     margin: 0;
    }
 
    /*--------------------------- Base FAQ Page Styles ----------------------------*/
    .faq {
+     background-color: #527158;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -376,10 +407,15 @@ textarea {
 
    .faq h2  {
      margin: ;
+     line-height: ;
    }
 
    .faq-content {
      margin: ;
+   }
+
+   .faq-content h4  {
+     line-height: ;
    }
    /*--------------------------- End Base FAQ Page Styles ----------------------------*/
 
