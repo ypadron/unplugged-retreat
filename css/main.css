@@ -248,6 +248,10 @@ textarea {
       /* flex-flow: row wrap; */
     }
 
+    .social-icons i {
+      font-size: 1.5em;
+    }
+
     footer .copyright {
       margin: 20px 0;
     }
@@ -331,7 +335,7 @@ textarea {
 
    .features article  {
      width: 55%;
-     margin: ;
+     margin: 40px 0;
    }
 
    .features .features-items  {
@@ -343,8 +347,13 @@ textarea {
 
    .features p  {
      margin: 0;
-     padding: 50px 0; /*May not need*/
+     /* padding: 50px 0; May not need */
      text-align: center;
+   }
+
+   .features i {
+     font-size: 3.75em;
+     margin-bottom: 40px;
    }
 
    .reviews {
