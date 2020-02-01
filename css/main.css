@@ -265,6 +265,8 @@ textarea {
 
    /*--------------------------- Default Mobile Homepage Styles ----------------------------*/
 
+   /*** Hero Area ***/
+
    .hero-area {
      background: url('../img/jake-melara-30679-unsplash-web.jpg');
      background-size: cover;
@@ -284,6 +286,10 @@ textarea {
      margin: 0;
    }
 
+   /*--------------------------- Default Homepage Form Styles ----------------------------*/
+
+   /*** Aside ***/
+
    aside  {
      display: flex;
      justify-content: center;
@@ -291,8 +297,6 @@ textarea {
      flex-flow: row wrap;
      background-color: #527158;
    }
-
-/*--------------------------- Default Homepage Form Styles ----------------------------*/
 
   aside .form {
     margin-top: 30px;
@@ -322,6 +326,7 @@ textarea {
 
    /*--------------------------- End Default Homepage Form Styles ----------------------------*/
 
+   /*** Features ***/
 
    .features  {
      background: url('../img/rawpixel-800820-unsplash1-web.jpg');
@@ -359,6 +364,7 @@ textarea {
      margin-bottom: 40px;
    }
 
+   /*** Reviews ***/
    .reviews {
      display: flex;
      justify-content: center;
@@ -416,6 +422,7 @@ textarea {
    }
 
    /*--------------------------- Base FAQ Page Styles ----------------------------*/
+
    .faq {
      background-color: #527158;
      display: flex;
@@ -554,6 +561,8 @@ textarea {
     line-height: ;
   }
 
+/*** Header Tablet***/
+
   header  {
     justify-content: space-around;
     padding: 30px 0;
@@ -579,6 +588,7 @@ textarea {
     display: none;
   }
 
+  /*** Hero Area Tablet***/
   .hero-area {
     min-height: 600px;
   }
@@ -588,6 +598,8 @@ textarea {
     line-height: ;
     margin: ;
   }
+
+  /*** Aside Tablet ***/
 
   aside .form {
     margin-top: 0;
@@ -605,6 +617,8 @@ textarea {
     width: 40%;
     margin: 0;
   }
+
+  /*** Features Tablet ***/
 
   .features h2  {
     margin-bottom: ; /*already applied*/
@@ -630,6 +644,8 @@ textarea {
     width: 60%;
   }
 
+  /*** Reviews Tablet ***/
+
   .reviews h2 {
     width: 80%;
   }
@@ -648,6 +664,8 @@ textarea {
     width: 80%;
     margin: 0;
   }
+
+  /*** Footer Tablet ***/
 
   footer .content-wrapper {
     width: 70%;
@@ -751,10 +769,6 @@ textarea {
     max-width: 950px;
   }
 
-  .hero-area  {
-    /* min-height: 600px; */
-  }
-
   h2 {
     font-size: 2.25em;
   }
@@ -769,10 +783,18 @@ textarea {
     line-height: 1.3em;
   }
 
+  /*** Hero Desktop ***/
+
+  .hero-area  {
+    /* min-height: 600px; */
+  }
+
   .hero-area h1 {
     font-size: 3.5em;
     width: 70%;
   }
+
+  /*** Aside Desktop ***/
 
   aside .content-wrapper  {
     justify-content: space-around;
@@ -787,6 +809,8 @@ textarea {
     font-size: 1.125em;
   }
 
+  /*** Features Desktop ***/
+
   .features h2  {
     width: 90%;
   }
@@ -794,6 +818,8 @@ textarea {
   .features-items article {
     flex-basis: 33%;
   }
+
+  /*** Reviews Desktop ***/
 
   .reviews article div  {
     width: 45%;
@@ -803,10 +829,13 @@ textarea {
     padding-bottom: 40px;
   }
 
+  /*** Footer Desktop ***/
+
   footer h4 {
     font-size: 1.875em;
   }
   /*--------------------------- About Page Styles Desktop ----------------------------*/
+  
   .mission h2,
   .contact-section .content-wrapper h2  {
     width: 95%;
