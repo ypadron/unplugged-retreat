@@ -118,13 +118,14 @@ textarea {
    a  {
      color: #e2e3ed;
      text-decoration: none;
-     font-weight: bold; /*move to a different element ?*/
+     /* font-weight: bold; /*move to a different element ?*/ */
    }
 
    h2  {
      font-family: 'Poppins', sans-serif;
-     font-weight: ;
+     font-weight: 500;
      font-size: 1.875em;
+     margin: 0;
    }
 
    h3,
@@ -193,7 +194,7 @@ textarea {
   .header-divider  {
     width: 100%;
     height: 1px;
-    color: #fff;
+    background-color: #3a3a3a;
     margin: 10px 0 20px 0;
   }
 
@@ -203,9 +204,9 @@ textarea {
      align-items: center;
      flex-flow: row wrap;
      width: 60%;
-     font-size: ;
-     font-weight: ;
-     text-transform: ;
+     font-size: 1.125em;
+     font-weight: 700;
+     text-transform: uppercase;
    }
 
    header nav ul  {
@@ -251,14 +252,16 @@ textarea {
       justify-content: center;
       align-items: center;
       /* flex-flow: row wrap; */
-      width: 40px;
-      height: 40px;
-      border-radius: 20px;
-      background-color: #527158;
     }
 
     .social-icons i {
-      /* font-size: 1.5em; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: #527158;
     }
 
     footer .copyright {
@@ -277,7 +280,6 @@ textarea {
      justify-content: center;
      /* align-items: center; */
      flex-flow: row wrap;
-
    }
 
    .hero-area h1  {
@@ -285,7 +287,7 @@ textarea {
      font-size: 2.25em;
      font-weight: 500;
      /* padding: 50px 0; */
-     line-height: ;
+     line-height: 1.2;
      margin: 0;
    }
 
@@ -549,11 +551,12 @@ textarea {
   /* General Styles */
   .content-wrapper  {
     width: 80%;
+    margin: ;
   }
 
   h2  {
-    font-size: 2em;
-    line-height: ;
+    font-size: 2.25em;
+    line-height: 1.2;
   }
 
   h3 {
@@ -562,12 +565,12 @@ textarea {
   }
 
   header  {
-    justify-content: center;
+    justify-content: space-around;
     padding: ;
   }
 
   header .content-wrapper {
-    width: ;
+    /* width: 100%; */
     /* flex-flow: row nowrap; */
     justify-content: space-between;
   }
@@ -591,7 +594,7 @@ textarea {
   }
 
   .hero-area {
-    min-height: ;
+    min-height: 600px;
   }
 
   .hero-area h1 {
@@ -621,6 +624,7 @@ textarea {
 
   .features h2  {
     /* width: 60%; */
+    margin-bottom: ; /*already applied*/
   }
 
   .features-items {
@@ -633,6 +637,10 @@ textarea {
     flex-direction: column; /* flex-flow?*/
     justify-content: center;
     align-items: center;
+  }
+
+  .features i {
+    margin-bottom: 30px;
   }
 
   .features p {
@@ -681,7 +689,12 @@ textarea {
   }
 
   footer p {
-    line-height: ;
+    line-height: 1.2;
+  }
+
+  footer .social-icons{
+    width: 12em;
+    justify-content: space-between;
   }
 
   footer .copyright {
@@ -762,7 +775,7 @@ textarea {
   }
 
   .hero-area  {
-    min-height: 600px;
+    /* min-height: 600px; */
   }
 
   h2 {
@@ -775,12 +788,12 @@ textarea {
   }
 
   p {
-    font-size: 1.3em;
+    font-size: 1.2em;
     line-height: 1.3em;
   }
 
   .hero-area h1 {
-    font-size: ;
+    font-size: 3.5em;
     width: 70%;
   }
 
@@ -824,7 +837,7 @@ textarea {
   }
 
   .map figure {
-    padding-bottom: 57%;
+    padding-bottom: 57%;/*Double check this percentage*/
   }
 
   .contact-section .content-wrapper h2  {
@@ -847,12 +860,13 @@ textarea {
 
   .faq h2 {
     font-size: 3em;
+    width: ;
   }
 
   .faq h4,
   .faq p  {
-    font-size: 1.2em;
-    line-height: 1.2em;
+    font-size: 1.2em;/* Double check height*/
+    line-height: 1.2em;/* Double check height*/
   }
 }
 
