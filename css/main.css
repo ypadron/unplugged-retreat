@@ -139,7 +139,6 @@ textarea {
    p  {
      font-size: 1em; /*.875em*/
      line-height: ;
-
    }
 
    img  {
@@ -212,9 +211,7 @@ textarea {
    header nav ul  {
      display: flex;
      justify-content: space-around;
-     /* align-items: center; */
      width: 100%;
-     /* margin: 20px 0; */
      padding: 0;
    }
 
@@ -244,14 +241,12 @@ textarea {
      display: flex;
      justify-content: space-around;
      align-items: center;
-     /* flex-flow: row wrap; */
    }
 
     footer .social-icons p {
       display: flex;
       justify-content: center;
       align-items: center;
-      /* flex-flow: row wrap; */
     }
 
     .social-icons i {
@@ -278,7 +273,6 @@ textarea {
      min-height: 500px;
      display: flex;
      justify-content: center;
-     /* align-items: center; */
      flex-flow: row wrap;
    }
 
@@ -286,7 +280,6 @@ textarea {
      font-family: 'Poppins', sans-serif;
      font-size: 2.25em;
      font-weight: 500;
-     /* padding: 50px 0; */
      line-height: 1.2;
      margin: 0;
    }
@@ -337,7 +330,6 @@ textarea {
      background-repeat: no-repeat;
      display: flex;
      justify-content: center;
-     /* align-items: center; */
      flex-flow: row wrap;
    }
 
@@ -359,7 +351,6 @@ textarea {
 
    .features p  {
      margin: 0;
-     /* padding: 50px 0; May not need */
      text-align: center;
    }
 
@@ -371,7 +362,6 @@ textarea {
    .reviews {
      display: flex;
      justify-content: center;
-     /* align-items: center; */
      flex-flow: row wrap;
      background-color: #2a423a;
    }
@@ -570,14 +560,10 @@ textarea {
   }
 
   header .content-wrapper {
-    /* width: 100%; */
-    /* flex-flow: row nowrap; */
     justify-content: space-between;
   }
 
   header figure {
-    /* display: flex; */
-    /* justify-content: flex-start; */
     width: 30%;
   }
 
@@ -598,7 +584,6 @@ textarea {
   }
 
   .hero-area h1 {
-    /* width: 60%; */
     font-size: 3em;
     line-height: ;
     margin: ;
@@ -612,7 +597,6 @@ textarea {
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
-    /* width: 80%; */
     margin: 40px 0;
   }
 
@@ -623,7 +607,6 @@ textarea {
   }
 
   .features h2  {
-    /* width: 60%; */
     margin-bottom: ; /*already applied*/
   }
 
@@ -654,7 +637,6 @@ textarea {
   .reviews article  {
     display: flex;
     justify-content: space-between;
-    /* width: 100%; */
   }
 
   .reviews article figure,
@@ -704,7 +686,6 @@ textarea {
   /*--------------------------- Tablet About Page Styles ----------------------------*/
   .mission-content  {
     display: flex;
-    /* flex-flow: column; */
     justify-content: space-between;
     align-items: center;
     padding-top: 10px; /* possible increase*/
@@ -714,8 +695,6 @@ textarea {
   }
 
   .mission-content p {
-    /* display: flex; */
-    /* flex-flow: row; */
     width: 45%;
   }
 
@@ -729,10 +708,8 @@ textarea {
 
   .contact-content  {
     display: flex;
-    /* flex-flow: row; */
     justify-content: space-between;
     align-items: flex-start;
-    /* width: 100%; */
   }
 
   .contact-content h4 {
